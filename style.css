@@ -1,0 +1,60 @@
+body {
+    font-family: "Nunito", Arial, sans-serif;
+}
+
+#nav {
+    color: white;
+    background-color: rgb(211, 173, 49);
+    height: 30px;
+    font-size: 13px;
+    
+}
+
+#nav #leftText {
+    float: left;
+    margin: 6px 10px 0px 20px;
+}
+#nav a {
+    color: white;
+    float: right;
+    margin: 6px 10px 0px 0px;
+    text-decoration: none;
+    padding-right: 10px;
+    
+}
+
+#part2 {
+    text-align: center;
+    clear: both;
+}
+
+#cardContainer {
+    display: inline-block;
+}
+.card {
+    border: rgb(211, 173, 49) solid 1px;
+    border-radius: 3px;
+    float: left;
+    padding: 10px;
+    margin: 40px 10px;
+    text-align: left;
+    width: 250px;
+
+}
+.moreInfo {
+    text-align: center;
+}
+
+input[type=button]{
+    background-color: rgb(211, 173, 49);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    color: white;
+    
+ }
+.moreinfo .button{
+    text-align: center;
+}
+ 
